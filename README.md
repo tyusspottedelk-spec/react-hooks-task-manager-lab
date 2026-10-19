@@ -84,6 +84,8 @@ npm run dev
 npm run server
 ```
 
+The app connects to `http://localhost:6001/tasks` by default. To use a backend on a different port, set `VITE_TASKS_API_URL` to its tasks endpoint before starting Vite (for example, `VITE_TASKS_API_URL=http://localhost:6002/tasks npm run dev`).
+
 #### Run test suite
 ```sh
 npm run test
